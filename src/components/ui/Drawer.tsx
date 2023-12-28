@@ -1,4 +1,5 @@
 import { useState } from "react"
+import styled from "home.module.css"
 
 interface Props {
 	isOpen: boolean
@@ -12,11 +13,32 @@ const Drawer = ({ children, isOpen, onCartIconClick }: Props) => {
 			<div
 				className={`fixed top-0 right-0 h-full w-80 bg-gray-900 text-white transition duration-700 ease-in-out transform z-50 ${
 					isOpen ? "translate-x-0" : "translate-x-full"
-				}`}
-				style={{ boxShadow: `${isOpen ? "rgba(0, 0, 0, 0.4) 0px 30px 30px" : ""}` }}
+				}`
+			
+		//	}
+				//style={{ boxShadow: `${isOpen ? "rgba(0, 0, 0, 0.4) 0px 30px 30px" : ""}` } 
+			}
 			>
-				<aside className='h-full overflow-y-auto'>
-					<header className='bg-gray-900 text-white py-4 flex items-center justify-end px-4 h-14'>
+				<aside className='h-full overflow-y-auto'
+				style={
+					{
+						backgroundColor: "#4e1207",
+		borderColor: "#FF1493",
+		color:"#face44",
+
+
+					}
+				}>
+					<header className='bg-gray-900 text-white py-4 flex items-center justify-end px-4 h-14'
+					style={
+						{
+							backgroundColor: "#4e1207",
+			borderColor: "#FF1493",
+			color:"#face44",
+
+
+						}
+					}>
 						<div>
 							<button onClick={onCartIconClick}>Close</button>
 						</div>

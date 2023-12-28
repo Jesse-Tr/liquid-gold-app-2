@@ -25,7 +25,7 @@ export const useProductsStore = create<State & Actions>(set => ({
 	fetchData: async () => {
 		try {
 			set({ isLoading: true, error: null })
-			const response = await fetch("https://dummyjson.com/products")
+			const response = await fetch("https://dev-cs55-13-2023.pantheonsite.io/wp-json/twentytwentyone-child/v1/movies")
 			const data = await response.json()
 			set({ products: data.products, isLoading: false })
 		} catch (error) {

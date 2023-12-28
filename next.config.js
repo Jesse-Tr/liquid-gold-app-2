@@ -2,8 +2,17 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["i.dummyjson.com"]
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'dev-cs55-13-2023.pantheonsite.io',
+        pathname: '**',
+      },
+    ],
   }
+  
 }
 
 module.exports = nextConfig
+
+

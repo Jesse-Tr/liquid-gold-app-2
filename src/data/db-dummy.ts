@@ -1,17 +1,18 @@
 export const products = [
 	{
 		id: 1,
-		title: "iPhone 9",
-		description: "An apple mobile which is nothing like apple",
-		price: 549,
+		title: "14C Gold",
+		description: "Savor the punchy delight of our 14C Gold! This juice is a tantalizing blend of crisp apple, earthy carrot, tangy lemon, and a spicy kick of ginger. It's a refreshing fusion that'll awaken your taste buds and invigorate your day with its vibrant, zesty flavor profile."
+		,
+		price: 700,
 		discountPercentage: 12.96,
-		rating: 4.69,
+		rating: 4.89,
 		stock: 94,
-		brand: "Apple",
-		category: "smartphones",
+		brand: "Liquid Gold",
+		category: "Juice",
 		thumbnail: "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
 		images: [
-			"https://i.dummyjson.com/data/products/1/1.jpg",
+			"https://dev-cs55-13-2023.pantheonsite.io/wp-content/uploads/2023/12/FF751844-62E9-4AB1-8BDC-92CF438CE6C8-240x300.jpg",
 			"https://i.dummyjson.com/data/products/1/2.jpg",
 			"https://i.dummyjson.com/data/products/1/3.jpg",
 			"https://i.dummyjson.com/data/products/1/4.jpg",
