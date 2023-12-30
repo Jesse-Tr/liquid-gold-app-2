@@ -24,13 +24,13 @@ export default function ProductCard({ product }: Props) {
 			<Image
 				src={product.images[0]}
 				alt={product.title}
-				width={100}
-				height={100}
-				className='object-contain w-full h-40'
+				width={300}
+				height={200}
+				className='object-contain w-full h-56'
 			/>
 			<div className='flex-1 flex flex-col justify-between'
 			>
-				<h2 className='text-lg font-semibold'>{product.title}</h2>
+				<h2 className='text-lg font-semibold flex justify-center'>{product.title}</h2>
 				<p className='text-gray-600 flex-1'>{product.description}</p>
 				<div className='mt-4 flex items-center justify-between'>
 					<span className='text-gray-800 font-semibold'>${product.price.toFixed(2)}</span>

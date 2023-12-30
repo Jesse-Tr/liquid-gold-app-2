@@ -1,6 +1,6 @@
 import Carousel1 from "../components/Carousel";
 import React from "react";
-
+import Head from "next/head";
 import { useEffect, useState } from "react"
 
 import Header from "@/components/ui/Header"
@@ -29,11 +29,14 @@ export default function Products() {
 	}
 
 	return (
-		<> <title> Liquid Gold Juice</title>
-			<meta
-				name="description"
-				content="Fresh Squeezed Juice for sale"
-			/>
+		<>
+			<Head >
+				<title> Liquid Gold Juice</title>
+				<meta
+					name="description"
+					content="Fresh Squeezed Juice for sale"/>
+			</Head>
+			
 			<Header onCartIconClick={handleCartIconClick} />
 			<Drawer isOpen={isDrawerOpen} onCartIconClick={handleCartIconClick}>
 				<Cart />
