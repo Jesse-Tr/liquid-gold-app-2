@@ -36,7 +36,7 @@ export default function Products() {
 					name="description"
 					content="Fresh Squeezed Juice for sale"/>
 			</Head>
-			
+
 			<Header onCartIconClick={handleCartIconClick} />
 			<Drawer isOpen={isDrawerOpen} onCartIconClick={handleCartIconClick}>
 				<Cart />
