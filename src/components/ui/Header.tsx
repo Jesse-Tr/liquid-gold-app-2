@@ -5,6 +5,7 @@ import React from "react";
 import useFromStore from "@/hooks/useFromStore"
 import Image from "next/image"
 import Link from "next/link"
+import { useSelector } from 'react-redux';
 
 
 interface Props {
@@ -13,8 +14,16 @@ interface Props {
 
 export default function Header({ onCartIconClick }: Props) {
 	const cart = useFromStore(useCartStore, state => state.cart)
+	
 
+	let total = 0
+	if (cart) {
+		total = cart.reduce((acc, product) => acc + (product.quantity as number), 0)
+	}
 	return (
+
+		
+		
 		<header className='bg-gray-900 text-white py-0 flex items-center justify-between h-18 sticky top-0 z-10 flex shadow-l'
 			style={
 				{
@@ -97,7 +106,7 @@ export default function Header({ onCartIconClick }: Props) {
 								color: "#face44"
 
 							}
-						}>{cart?.length}</div>
+						}>{total}</div>
 				</button>
 
 
