@@ -2,6 +2,7 @@ export const products1 = [
 	{
 		id: 1,
 		title: "14C Gold",
+		ingridents: "Carrot, Orange, Golden, Beet, Ginger",
 		description: "Savor the punchy delight of our 14C Gold! This juice is a tantalizing blend of crisp apple, earthy carrot, tangy lemon, and a spicy kick of ginger. It's a refreshing fusion that'll awaken your taste buds and invigorate your day with its vibrant, zesty flavor profile."
 		,
 		price: 7.00,
@@ -23,6 +24,7 @@ export const products1 = [
     {
 		id: 2,
 		title: "14C Gold 2",
+		ingridents: "Carrot, Orange, Golden, Beet, Ginger",
 		description: "Introducing our Berry-Beet Fusion! This invigorating juice combines the luscious sweetness of grapes with the earthy depth of red beet, perfectly balanced by the burst of blueberries. It's a refreshing concoction that marries vibrant flavors, delivering a nutrient-packed sip that's both delicious and revitalizing."
 		,
 		price: 7.00,

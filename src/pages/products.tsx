@@ -6,6 +6,8 @@ import Cart from "@/components/minicart/Cart"
 import ProductList from "@/components/products/ProductList"
 
 import { useProductsStore } from "@/stores/useProductsStore"
+import { Footer } from "flowbite-react"
+import FooterApp from "@/components/ui/Footer"
 
 export default function Products() {
 	const [isDrawerOpen, setIsDrawerOpen] = useState(false)
@@ -30,7 +32,7 @@ export default function Products() {
 			>
 				{isLoading ? <div className='text-center text-lg'>Loading...</div> : <ProductList products={products} />}
 			</main>
-			
+			<FooterApp/>
 		</>
 	)
 }

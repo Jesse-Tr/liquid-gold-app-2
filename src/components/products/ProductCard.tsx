@@ -3,7 +3,7 @@ import Image from "next/image"
 import { useCartStore } from "../../stores/useCartStore"
 
 import { Product } from "@/types.d"
-
+import FooterApp from "../ui/Footer"
 interface Props {
 	product: Product
 }
@@ -31,9 +31,10 @@ export default function ProductCard({ product }: Props) {
 			<div className='flex-1 flex flex-col justify-between'
 			>
 				<h2 className='text-lg font-semibold flex justify-center'>{product.title}</h2>
-				<p className='text-gray-600 flex-1'>{product.description}</p>
+				<h3 className="text-md font-semibold flex justify-center">Ingredients: {product.ingridents}</h3>
+				<h5 className='text-md flex-1 text-pink-400'>{product.description}</h5>
 				<div className='mt-4 flex items-center justify-between'>
-					<span className='text-gray-800 font-semibold'>${product.price.toFixed(2)}</span>
+					<span className='font-semibold'>${product.price.toFixed(2)}</span>
 					<div
 					>
 						<button
@@ -57,5 +58,6 @@ export default function ProductCard({ product }: Props) {
 				</div>
 			</div>
 		</div>
+		
 	)
 }

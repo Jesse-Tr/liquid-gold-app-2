@@ -1,4 +1,5 @@
 export interface Product {
+	ingridents: ReactNode
 	id: number
 	title: string
 	description: string
