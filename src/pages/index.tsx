@@ -54,7 +54,7 @@ export default function Products() {
 
 
 			<main className='container mx-auto md:w-10/12 py-8 px-4 '>
-				<div className="overflow-hidden">
+				<div className="overflow-y-hidden">
 				<Carousel1 />
 				</div>
 				<div className=" py-4 text-center">
