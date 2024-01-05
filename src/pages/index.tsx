@@ -60,14 +60,14 @@ export default function Products() {
 					<h1 className="font-bold font-size-xl"
 					>Liquid Gold</h1>
 					<p className="font-bold">
-						At Liquid Gold, we're on a groovy mission to turn your taste buds
+						At Liquid Gold&sbquo; we&apos;re on a groovy mission to turn your taste buds
 						upside down while making your health and wallet feel as golden as a
-						minted coin. We press, squeeze, and blend nature's delights into
-						liquid treasures, serving up organic, fresh-pressed juices that'll
-						have you feeling hip, healthy, and wealthier with every sip. It's like
-						sipping on a vintage cashmere sweater, but in liquid form – pure,
-						stylish, and guaranteed to make you smile. Cheers to health, wealth,
-						and a whole lotta laughter, baby!" 🍏🍊🍇💰✨ #LiquidGoldVibes
+						minted coin. We press&sbquo; squeeze&sbquo; and blend nature&apos;s delights into
+						liquid treasures&sbquo; serving up organic&sbquo; fresh-pressed juices that&apos;ll
+						have you feeling hip, healthy&sbquo; and wealthier with every sip. It&apos;s like
+						sipping on a vintage cashmere sweater&sbquo; but in liquid form – pure&sbquo;
+						stylish&sbquo; and guaranteed to make you smile. Cheers to health&sbquo; wealthv&sbquo;
+						and a whole lotta laughter&sbquo; baby! 🍏🍊🍇💰✨ #LiquidGoldVibes
 
 					</p>
 				</div>
