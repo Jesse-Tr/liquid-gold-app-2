@@ -3,7 +3,7 @@ import Image from "next/image"
 import { useCartStore } from "../../stores/useCartStore"
 
 import { Product } from "@/types.d"
-import FooterApp from "../ui/Footer.t/sx"
+
 interface Props {
 	product: Product
 }
