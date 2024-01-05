@@ -53,9 +53,10 @@ export default function Products() {
 			</Drawer>
 
 
-			<main className='container mx-auto md:w-10/12 py-8 px-4'>
-
+			<main className='container mx-auto md:w-10/12 py-8 px-4 '>
+				<div className="overflow-hidden">
 				<Carousel1 />
+				</div>
 				<div className=" py-4 text-center">
 					<h1 className="font-bold font-size-xl"
 					>Liquid Gold</h1>

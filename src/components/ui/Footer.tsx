@@ -9,7 +9,7 @@ export default function FooterApp() {
 
 
 <footer
-  class="flex flex-col items-center bg-red-950 text-center text-white " 
+  className="flex flex-col items-center bg-red-950 text-center text-white " 
   style={
     {
         
@@ -18,18 +18,18 @@ export default function FooterApp() {
 
     }
 }>
-  <div class="container px-6 pt-6">
+  <div className="container px-6 pt-6">
 
-    <div class="mb-6 flex justify-center">
+    <div className="mb-6 flex justify-center">
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -40,12 +40,12 @@ export default function FooterApp() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -56,12 +56,12 @@ export default function FooterApp() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -74,12 +74,12 @@ export default function FooterApp() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -90,12 +90,12 @@ export default function FooterApp() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -106,12 +106,12 @@ export default function FooterApp() {
       <a
         href="#!"
         type="button"
-        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
         data-te-ripple-color="light">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="mx-auto h-full w-4"
+          className="mx-auto h-full w-4"
           fill="currentColor"
           viewBox="0 0 24 24">
           <path
@@ -124,31 +124,31 @@ export default function FooterApp() {
     <div>
       <form action="">
         <div
-          class="gird-cols-1 grid items-center justify-center gap-4 md:grid-cols-3">
-          <div class="md:mb-6 md:ml-auto">
-            <p class="">
+          className="gird-cols-1 grid items-center justify-center gap-4 md:grid-cols-3">
+          <div className="md:mb-6 md:ml-auto">
+            <p className="">
               <strong>Sign up for our newsletter</strong>
             </p>
           </div>
 
 
-          <div class="relative md:mb-6" data-te-input-wrapper-init>
+          <div className="relative md:mb-6" data-te-input-wrapper-init>
             <input
               type="text"
-              class="peer block min-h-[auto] w-full rounded border-.5 bg-transparent px-3 py-[0.32rem] leading-[1.6] text-neutral-200 outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+              className="peer block min-h-[auto] w-full rounded border-.5 bg-transparent px-3 py-[0.32rem] leading-[1.6] text-neutral-200 outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
               id="exampleFormControlInput1"
               placeholder="Email address" />
             <label
-              for="exampleFormControlInput1"
-              class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-200 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-neutral-200 peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200"
+              htmlFor="exampleFormControlInput1"
+              className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-200 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-neutral-200 peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200"
               >Email address
             </label>
           </div>
 
-          <div class="mb-6 md:mr-auto">
+          <div className="mb-6 md:mr-auto">
             <button
               type="submit"
-              class="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+              className="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
               data-te-ripple-init
               data-te-ripple-color="light">
               Subscribe
@@ -159,7 +159,7 @@ export default function FooterApp() {
     </div>
 
 
-    <div class="mb-6">
+    <div className="mb-6">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
         distinctio earum repellat quaerat voluptatibus placeat nam,
@@ -169,79 +169,79 @@ export default function FooterApp() {
     </div>
 
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-4">
-      <div class="mb-6">
-        <h5 class="mb-2.5 font-bold uppercase">Links</h5>
+    <div className="grid md:grid-cols-2 lg:grid-cols-4">
+      <div className="mb-6">
+        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
 
-        <ul class="mb-0 list-none">
+        <ul className="mb-0 list-none">
           <li>
-            <a href="#!" class="text-white">Link 1</a>
+            <a href="#!" className="text-white">Link 1</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 2</a>
+            <a href="#!" className="text-white">Link 2</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 3</a>
+            <a href="#!" className="text-white">Link 3</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 4</a>
+            <a href="#!" className="text-white">Link 4</a>
           </li>
         </ul>
       </div>
 
-      <div class="mb-6">
-        <h5 class="mb-2.5 font-bold uppercase">Links</h5>
+      <div className="mb-6">
+        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
 
-        <ul class="mb-0 list-none">
+        <ul className="mb-0 list-none">
           <li>
-            <a href="#!" class="text-white">Link 1</a>
+            <a href="#!" className="text-white">Link 1</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 2</a>
+            <a href="#!" className="text-white">Link 2</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 3</a>
+            <a href="#!" className="text-white">Link 3</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 4</a>
+            <a href="#!" className="text-white">Link 4</a>
           </li>
         </ul>
       </div>
 
-      <div class="mb-6">
-        <h5 class="mb-2.5 font-bold uppercase">Links</h5>
+      <div className="mb-6">
+        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
 
-        <ul class="mb-0 list-none">
+        <ul className="mb-0 list-none">
           <li>
-            <a href="#!" class="text-white">Link 1</a>
+            <a href="#!" className="text-white">Link 1</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 2</a>
+            <a href="#!" className="text-white">Link 2</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 3</a>
+            <a href="#!" className="text-white">Link 3</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 4</a>
+            <a href="#!" className="text-white">Link 4</a>
           </li>
         </ul>
       </div>
 
-      <div class="mb-6">
-        <h5 class="mb-2.5 font-bold uppercase">Links</h5>
+      <div className="mb-6">
+        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
 
-        <ul class="mb-0 list-none">
+        <ul className="mb-0 list-none">
           <li>
-            <a href="#!" class="text-white">Link 1</a>
+            <a href="#!" className="text-white">Link 1</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 2</a>
+            <a href="#!" className="text-white">Link 2</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 3</a>
+            <a href="#!" className="text-white">Link 3</a>
           </li>
           <li>
-            <Link href="#!" class="text-white">Link 4</Link>
+            <Link href="#!" className="text-white">Link 4</Link>
           </li>
         </ul>
       </div>
@@ -250,11 +250,11 @@ export default function FooterApp() {
 
 
   <div
-    class="w-full p-4 text-center"
+    className="w-full p-4 text-center"
     
     >
     © 2023 Copyright:
-    <Link class="text-white" href="#">3spressoShot</Link>
+    <Link className="text-white" href="#">3spressoShot</Link>
   </div>
 </footer>
    
